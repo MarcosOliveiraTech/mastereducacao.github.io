@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+
+.tituloPadrao{
+  margin: 30px 0 20px 0;
+}
+
+
+.informacoes{
+  display: flex;
+  justify-content:center ;
+  font-family: 'Montserrat', sans-serif;
+  
+  
+  
+}
+
+.ester{
+  /* background-color: #7a1717; */
+  width: 40%;
+  margin: 0 10px 0 0;
+  
+  
+  
+  
+}
+
+.marcos{
+
+  /* background-color: #4d177a; */
+  width: 40%;
+  
+
+}
+
+.institucionalconteudo{
+  display: flex;
+  justify-content:center ;
+  margin-top: 20px;
+  
+  
+
+}
+
+.texto{
+  /* background-color: rgb(43, 189, 226); */
+  width: 40%;
+  text-align: justify;
+  font-size: 0.8em;
+  /* font-family: 'Open Sans', 'Segoe UI', sans-serif; */
+  margin: 0 10px 0 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+
+  line-height: 24px;
+  
+  
+
+}
+
+.img{
+  /* background-color: rgb(217, 226, 43); */
+  width: 40%;
+  text-align: center;
+  border-radius: 25px;
+
+}
+
+.institucionalCargo{
+  margin: 5px 0 5px;
+}
+
+
+
+.institucionalNome{
+  font-family: "Open Sans", "Segoe UI", sans-serif;
+  font-size: 24px;
+  font-weight: bolder;
+  color: #4f4c4c;
+
+  display: flex;
+  align-items:center;
+  justify-content: center;
+
+ 
+
+}
+
+.institucionalCargo{
+  font-family: "Open Sans", "Segoe UI", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #4f4c4c;
+
+  display: flex;
+  align-items:center;
+  justify-content: center;
+
+  margin: 0 0 30px 0;
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .informacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+  }
+
+  .institucionalconteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  
+  }
+
+  .ester{
+    
+    width: 80%;
+    margin: 0 0px 0 0;
+    
+    
+    
+  }
+  
+  .marcos{
+  
+  
+    width: 80%;
+    
+  
+  }
+
+  .texto{
+    
+    width: 100%;
+    margin: 0 0px 0 0;
+    
+      
+  }
+
+  .img{
+    margin: 10px 0 20px 0;
+    border-radius: 25px;
+  }
+
+
+}

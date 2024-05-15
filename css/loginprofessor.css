@@ -1,0 +1,30 @@
+.botao{
+
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    margin: 3.5em 0 0 0 ;
+
+}
+
+.botaologin{
+
+    background-color: white;
+    font-family: 'Open Sans', 'Segoe UI', sans-serif;
+    padding: 20px 120px 20px 120px;
+    border-radius: 10px;
+    border-color: white;
+    font-weight: bold;
+    color: #4F4C4C;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    letter-spacing: 0.8px;
+    
+}
+
+.botaologin:hover{
+    background-color: #E75725;
+    color: white;
+    transition: background-color 0.3s ease;
+}
